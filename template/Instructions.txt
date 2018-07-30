@@ -1,0 +1,4 @@
+
+1. Inside "js" folder, change file extension of every files to "js" instead of "txt".
+
+2. Take care of responsiveness of completed assignment in different resolutions.

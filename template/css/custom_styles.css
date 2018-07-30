@@ -1,0 +1,117 @@
+/* fix for broken search box */
+/*http://stackoverflow.com/questions/36825618/materialize-css-navbar-search-is-broken*/
+input[type="search"] {
+  height: 64px !important; /* or height of nav */
+}
+body {
+    background-color: #eeeeee;
+}
+main{
+  padding-left: 250px;
+}
+.container{
+  width: 90%;
+  padding-top: 3rem;
+  margin-left: 4%;
+}
+.bold{
+  font-weight: 600 !important
+}
+#slide-out{
+  top:65px;
+}
+.material-icons{
+  font-size: 2.2rem !important;
+}
+@media only screen and (max-width: 992px){
+  main{
+    padding-left: 0px;
+  }
+}
+
+/**********Customized CSS**********/
+.side-nav{
+  width:270px !important;
+}
+#slide-out li a i,#slide-out li a span{
+  color: white !important;
+}
+#slide-out {
+  padding-top: 3rem; 
+}
+#slide-out a {
+  cursor: pointer;
+}
+.black-color{
+  color:black !important;
+}
+.blue-color{
+  color: #2196F3 !important
+}
+.lightgrey-color{
+  color:lightgrey !important;
+}
+.btn-flat{
+  padding: 0px !important;
+}
+.card .card-content {
+  padding: 10px !important;
+}
+.padding-left-30{
+  padding-left: 30px !important;
+}
+.padding-right-30{
+  padding-right: 30px !important;
+}
+.font-size-dot7em{
+  font-size: 0.7em !important;
+}
+#college-table tbody tr {
+  border-bottom: 1px solid lightgray;
+}
+#college-table tbody tr td:nth-child(1),#college-table thead tr th:nth-child(1) {
+  text-align: left;
+}
+#college-table tbody tr td:nth-child(2),#college-table thead tr th:nth-child(2) {
+  text-align: right;
+}
+#college-table tr th,#college-table tr td{
+  padding: 2px 5px !important;
+}
+
+#card1-content ul{
+  margin-left: 30px;
+  list-style-type: disc;
+}    
+#card1-content ul li{
+  list-style-type: disc;
+  
+}
+#card1-content .child-one{
+  border-right: 1px solid lightgray;
+}
+img {
+  vertical-align: middle;
+}
+@keyframes animateProgressBar {
+  from {width:0px;}
+  to {width:100%;}
+}
+
+/* The element to apply the animation to */
+.animateProgress {
+  animation-name: animateProgressBar;
+  animation-duration: 40s;
+}
+
+@keyframes animateProgressBar2 {
+  from {width:0px;}
+  to {width:100%;}
+}
+
+/* The element to apply the animation to */
+.animateProgress2 {
+  animation-name: animateProgressBar2;
+  animation-duration: 50s;
+}
+
